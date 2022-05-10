@@ -1,5 +1,5 @@
 
-package one.microstream.examples.payara;
+package one.microstream.examples.model;
 
 /*-
  * #%L

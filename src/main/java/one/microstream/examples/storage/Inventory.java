@@ -1,5 +1,5 @@
 
-package one.microstream.examples.payara;
+package one.microstream.examples.storage;
 
 /*-
  * #%L
@@ -21,6 +21,7 @@ package one.microstream.examples.payara;
  * #L%
  */
 
+import one.microstream.examples.model.Product;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Objects;

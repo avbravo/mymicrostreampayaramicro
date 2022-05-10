@@ -1,5 +1,5 @@
 
-package one.microstream.examples.payara;
+package one.microstream.examples.controller;
 
 /*-
  * #%L
@@ -43,6 +43,8 @@ import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.Collection;
+import one.microstream.examples.model.Product;
+import one.microstream.examples.repository.ProductRepository;
 
 
 @RequestScoped

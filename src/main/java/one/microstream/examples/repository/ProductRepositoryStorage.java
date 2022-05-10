@@ -1,5 +1,5 @@
 
-package one.microstream.examples.payara;
+package one.microstream.examples.repository;
 
 /*-
  * #%L
@@ -21,6 +21,8 @@ package one.microstream.examples.payara;
  * #L%
  */
 
+import one.microstream.examples.storage.Inventory;
+import one.microstream.examples.model.Product;
 import java.util.Collection;
 import java.util.Optional;
 import java.util.logging.Logger;

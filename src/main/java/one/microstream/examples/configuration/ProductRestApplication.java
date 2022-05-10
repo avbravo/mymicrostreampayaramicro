@@ -1,5 +1,5 @@
 
-package one.microstream.examples.payara;
+package one.microstream.examples.configuration;
 
 /*-
  * #%L
@@ -21,18 +21,13 @@ package one.microstream.examples.payara;
  * #L%
  */
 
-import javax.inject.Singleton;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
+import javax.enterprise.context.ApplicationScoped;
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Application;
 
 
-@Path("/hello")
-@Singleton
-public class HelloController
+@ApplicationPath("/")
+@ApplicationScoped
+public class ProductRestApplication extends Application
 {
-	@GET
-	public String sayHello()
-	{
-		return "Hello World";
-	}
 }
